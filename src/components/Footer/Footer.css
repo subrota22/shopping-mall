@@ -1,0 +1,10 @@
+.footer{
+    background-color:black;
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    line-height: 220px;
+    font-size: 38px; 
+    padding: 28px 0px;
+}

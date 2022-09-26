@@ -1,0 +1,36 @@
+
+.header{
+    background-color: #1C2B35 ;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px;
+    position: sticky;
+    top: 0%;
+}
+.header a {
+    color:#FFFFFF ;
+    text-decoration: none;
+    margin-left: 36px;
+    font-size: 17px;
+}
+.header a:hover{
+    color: orange;
+}
+
+@media (max-width:650px) {
+    .header{
+display: flex;
+flex-direction: column;
+height:320px;
+text-align: center;
+    }
+
+    .header a {
+display:  flex;
+flex-direction: row-reverse;
+padding: 10px 0px;
+text-align: center;
+    }
+}

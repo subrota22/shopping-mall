@@ -1,0 +1,9 @@
+
+.cart-balance{
+    position: sticky;
+    top: 2%;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkblue;
+}
